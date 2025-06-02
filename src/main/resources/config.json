@@ -1,0 +1,10 @@
+{
+  "server_ip": "2b2t.org",
+  "server_port": 25565,
+  "local_port": 25566,
+  "account": {
+    "email": "example@email.com",
+    "password": "yourPassword"
+  },
+  "discord_token": ""
+}
