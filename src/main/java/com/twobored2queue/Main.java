@@ -9,8 +9,8 @@ public class Main {
         System.out.println("2Bored2Queue starting...");
 
         JsonObject config = ConfigLoader.load("config.json");
-        String discordToken = config.get("discord_token").getAsString();
 
+        String discordToken = config.get("discord_token").getAsString();
         DiscordBot.start(discordToken);
     }
 }
